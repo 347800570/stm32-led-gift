@@ -1,0 +1,112 @@
+** Drc report for LED_V01.kicad_pcb **
+** Created on 2026-09-15T22:57:16+0800 **
+
+** Found 29 DRC violations **
+[annular_width]: 孔环宽度 (board setup constraints 最小孔环宽度 0.1000 mm; 实际 -0.0030 mm)
+    规则: board setup constraints; error
+    @(47.1400 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+[annular_width]: 孔环宽度 (board setup constraints 最小孔环宽度 0.1000 mm; 实际 -0.0030 mm)
+    规则: board setup constraints; error
+    @(41.3600 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+[annular_width]: 孔环宽度 (board setup constraints 最小孔环宽度 0.1 mm; 实际 0.099988 mm)
+    规则: board setup constraints; error
+    @(63.2700 mm, 70.7500 mm): U1 的PTH 焊盘 1 [GND]
+[annular_width]: 孔环宽度 (board setup constraints 最小孔环宽度 0.1 mm; 实际 0.099988 mm)
+    规则: board setup constraints; error
+    @(62.0000 mm, 70.7500 mm): U1 的PTH 焊盘 2 [DS18B20]
+[annular_width]: 孔环宽度 (board setup constraints 最小孔环宽度 0.1 mm; 实际 0.099988 mm)
+    规则: board setup constraints; error
+    @(60.7300 mm, 70.7500 mm): U1 的PTH 焊盘 3 [+3.3V]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1812 mm)
+    规则: netclass 'Default'; error
+    @(47.1400 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+    @(47.4500 mm, 38.3000 mm): F.Cu 上 USB1 的焊盘 A1B12 [GND]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1812 mm)
+    规则: netclass 'Default'; error
+    @(41.3600 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+    @(41.0500 mm, 38.3000 mm): F.Cu 上 USB1 的焊盘 B1A12 [GND]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1899 mm)
+    规则: netclass 'Default'; error
+    @(49.0700 mm, 55.8800 mm): F.Cu 上 U8 的焊盘 1 [/BOOT0]
+    @(48.6900 mm, 55.5000 mm): F.Cu 上 U8 的焊盘 28 [/USART1_RX]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1501 mm)
+    规则: netclass 'Default'; error
+    @(49.0700 mm, 55.8800 mm): F.Cu 上 U8 的焊盘 1 [/BOOT0]
+    @(49.5700 mm, 55.9300 mm): F.Cu 上 U8 的焊盘 2 [unconnected-(U8-PF0-OSC_IN-Pad2)]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1499 mm)
+    规则: netclass 'Default'; error
+    @(51.5700 mm, 55.9300 mm): F.Cu 上 U8 的焊盘 6 [ADC_MIC]
+    @(52.0700 mm, 55.8800 mm): F.Cu 上 U8 的焊盘 7 [BUTTON]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1901 mm)
+    规则: netclass 'Default'; error
+    @(52.0700 mm, 55.8800 mm): F.Cu 上 U8 的焊盘 7 [BUTTON]
+    @(52.4500 mm, 55.5000 mm): F.Cu 上 U8 的焊盘 8 [DS18B20]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1499 mm)
+    规则: netclass 'Default'; error
+    @(52.4500 mm, 55.5000 mm): F.Cu 上 U8 的焊盘 8 [DS18B20]
+    @(52.5000 mm, 55.0000 mm): F.Cu 上 U8 的焊盘 9 [IR]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1501 mm)
+    规则: netclass 'Default'; error
+    @(52.5000 mm, 53.0000 mm): F.Cu 上 U8 的焊盘 13 [unconnected-(U8-PA7-Pad13)]
+    @(52.4500 mm, 52.5000 mm): F.Cu 上 U8 的焊盘 14 [LED1_DATA]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1899 mm)
+    规则: netclass 'Default'; error
+    @(52.4500 mm, 52.5000 mm): F.Cu 上 U8 的焊盘 14 [LED1_DATA]
+    @(52.0700 mm, 52.1200 mm): F.Cu 上 U8 的焊盘 15 [LED2_DATA]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1499 mm)
+    规则: netclass 'Default'; error
+    @(52.0700 mm, 52.1200 mm): F.Cu 上 U8 的焊盘 15 [LED2_DATA]
+    @(51.5700 mm, 52.0700 mm): F.Cu 上 U8 的焊盘 16 [GND]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1501 mm)
+    规则: netclass 'Default'; error
+    @(49.5700 mm, 52.0700 mm): F.Cu 上 U8 的焊盘 20 [/USB_DP]
+    @(49.0700 mm, 52.1200 mm): F.Cu 上 U8 的焊盘 21 [/SWDIO]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1897 mm)
+    规则: netclass 'Default'; error
+    @(49.0700 mm, 52.1200 mm): F.Cu 上 U8 的焊盘 21 [/SWDIO]
+    @(48.6900 mm, 52.5000 mm): F.Cu 上 U8 的焊盘 22 [/SWCLK]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1001 mm)
+    规则: netclass 'Default'; error
+    @(48.6900 mm, 52.5000 mm): F.Cu 上 U8 的焊盘 22 [/SWCLK]
+    @(48.6400 mm, 53.0000 mm): F.Cu 上 U8 的焊盘 23 [unconnected-(U8-PA15-Pad23)]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1500 mm)
+    规则: netclass 'Default'; error
+    @(48.6400 mm, 53.0000 mm): F.Cu 上 U8 的焊盘 23 [unconnected-(U8-PA15-Pad23)]
+    @(48.6400 mm, 53.5000 mm): F.Cu 上 U8 的焊盘 24 [unconnected-(U8-PB3-Pad24)]
+[clearance]: 间距违规 (netclass 'Default' 间距 0.2000 mm; 实际 0.1499 mm)
+    规则: netclass 'Default'; error
+    @(48.6400 mm, 55.0000 mm): F.Cu 上 U8 的焊盘 27 [/USART1_TX]
+    @(48.6900 mm, 55.5000 mm): F.Cu 上 U8 的焊盘 28 [/USART1_RX]
+[padstack]: Padstack 存在问题 (PTH 焊盘孔缺少铜箔)
+    局部重写; warning
+    @(47.1400 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+[padstack]: Padstack 存在问题 (PTH 焊盘孔缺少铜箔)
+    局部重写; warning
+    @(41.3600 mm, 37.2200 mm): USB1 的 PTH 焊盘 [<no net>]
+[lib_footprint_mismatch]: 封装 'Logo_Aboka_Bird_4mm' 与来源库 'Aboka_Board' 中的封装存在差异。
+    局部重写; warning
+    @(59.0000 mm, 32.5000 mm): 封装 G***
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(39.6800 mm, 31.0900 mm): USB1 的 线段, 位于 F.Silkscreen
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(39.6800 mm, 34.5200 mm): USB1 的 线段, 位于 F.Silkscreen
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(48.7500 mm, 30.9500 mm): USB1 的 线段, 位于 F.Silkscreen
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(48.7500 mm, 34.5300 mm): USB1 的 线段, 位于 F.Silkscreen
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(48.7000 mm, 38.5700 mm): USB1 的 圆形, 位于 F.Silkscreen
+[silk_over_copper]: 被阻焊层截断的丝印
+    局部重写; warning
+    @(49.4800 mm, 71.3300 mm): MIC1 的 圆形, 位于 F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
